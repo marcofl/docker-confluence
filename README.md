@@ -43,6 +43,10 @@ be available after the upgrade.
  
 _Note: Please make sure that you **don't** accidentally remove the `confluence`
 container and its volumes using the `-v` option._
+
+# Build
+
+    &> docker build -t marcofl/confluence .
  
 # Backup
  
